@@ -159,3 +159,7 @@ for(n in 1:nrow(tabla_ggplot)){
     }
   }
 ```
+
+```{r}
+write.csv(tabla_tableau,file="F:/Hacker Civics/Proyecto Migrador/Población extranjera/Tablas creadas/tabla_paises_regiones_val.csv",fileEncoding = "latin1",row.names=F)
+```
